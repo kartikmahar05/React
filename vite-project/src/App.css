@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin:0;
+}
+#navbar{
+  color:red;
+  background-color: white;
+  height: 200px;
+  
+}
+#button{
+  background-color: yellow;
+  margin: 10px 15px;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+.movie{
+  height: 500px;
+  width: 300px;
+  background-color: rgb(232, 173, 130);
+  margin: 10px 20px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+#image{
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+}
+#container{
+  width: 100%;
+ margin-top: 30px;
+  
+}
+#records{
+  color:white;
+  background-color: rgb(10, 10, 120);
+  text-align: center;
+padding: 20px;
+}
+#container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.data{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.data_value{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  box-shadow: rgba(72, 66, 66, 0.822) 0px 7px 29px 0px;
+  padding: 9px 5px 9px 5px;
+}
+table{
+  width: 800px;
+  border-collapse: collapse;
+  text-align: left;
+}
+td,th{
+  text-align: center;
+  border: 2px solid black;
+  padding: 15px;
+} 
+.product{
+  height: 300px;
+  width:200px;
+  border: 2px solid grey;
+  border-radius: 5px;
+
+} 
