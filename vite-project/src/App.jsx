@@ -13,6 +13,7 @@ import { BrowserRouter, Routes,Route,Link } from 'react-router-dom'
 import Home from './Home'
 import About from './About'
 import Gallery from './Gallery'
+import ToDo from './ToDo'
 
 
 
@@ -20,7 +21,9 @@ const App = () => {
   
   return (
     
-   <BrowserRouter>
+    <ToDo/>
+
+   /* <BrowserRouter>
    <Header/>
     <Routes>
 
@@ -29,7 +32,9 @@ const App = () => {
       <Route path="/gallery" element={<Gallery/>}/>
 
     </Routes>
-   </BrowserRouter>
+   </BrowserRouter> */
+   
+   
   )
 }
 
